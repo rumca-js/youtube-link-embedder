@@ -1,0 +1,34 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Link Embedder</title>
+  <script src="popup.js"></script>
+	<style>
+	  body {
+	    width: 200px;
+	    padding: 10px;
+	  }
+
+	  .youtube_player_frame {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    border: 0;
+	  }
+	</style>
+</head>
+
+<body>
+  <label for="linkInput">Enter Link:</label>
+  <input type="text" id="linkInput" />
+  <button id="openLinkButton">Open Link</button>
+
+  <!-- Add a div to display the result -->
+  <div id="result"></div>
+</body>
+
+</html>

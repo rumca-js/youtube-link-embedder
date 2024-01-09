@@ -1,0 +1,16 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "YouTube Link Embedder",
+  "version": "1.0",
+  "description": "Embeds YouTube links in iframe.",
+  "icons": {
+    "48": "icons8-embed-100.png"
+  },
+  "browser_action": {
+    "default_icon": "icons8-embed-100.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
+
