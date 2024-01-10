@@ -11,6 +11,6 @@
     "default_icon": "icons8-embed-100.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab", "https://renegat0x0.ddns.net/*"]
 }
 
