@@ -26,6 +26,8 @@ It puts the video into iframe:
 
 # HowTo
 
+After installation to run video:
+
  - Navigate to any page. Let's say https://www.youtube.com
  - click extension, popup should be opened
  - provide your desired video, let's say https://www.youtube.com/watch?v=CeA92xqw-QI
