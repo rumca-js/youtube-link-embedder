@@ -26,6 +26,5 @@ It puts the video into iframe:
 
 # HowTo
 
- - Navigate to any page. Let's say https://www.youtube.com
- - click extension, popup should be opened
- - provide your desired video, let's say https://www.youtube.com/watch?v=CeA92xqw-QI
+ - Navigate to any youtube video
+ - click extension. Should replace youtube page with embedded frame

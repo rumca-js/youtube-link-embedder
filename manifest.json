@@ -1,16 +1,27 @@
-// manifest.json
 {
   "manifest_version": 2,
-  "name": "YouTube Link Embedder",
+  "name": "YouTube Embedder",
   "version": "1.0",
-  "description": "Embeds YouTube links in iframe.",
+  "description": "Embed YouTube videos directly into the current browser tab.",
   "icons": {
     "48": "icons8-embed-100.png"
   },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
   "browser_action": {
-    "default_icon": "icons8-embed-100.png",
-    "default_popup": "popup.html"
+    "default_icon": {
+      "48": "icons8-embed-100.png"
+    },
+    "default_title": "YouTube Embedder"
   },
-  "permissions": ["activeTab", "https://renegat0x0.ddns.net/*"]
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icons8-embed-100.png"
+  }
 }
-
