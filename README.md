@@ -1,6 +1,6 @@
 # YouTube Link Embedder
 
-This is a firefox Extension that allows you to view all YouTube videos.
+This is a firefox Extension that allows you to view all YouTube videos. Even if it complains that ad blocker is enabled.
 
 It puts the video into iframe:
 
